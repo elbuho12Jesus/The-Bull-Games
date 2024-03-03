@@ -1,155 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\BaseSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\SdlInputHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopMultiThreaded.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopSingleThreaded.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\MainEntryPoints.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Threading\MessageQueueSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MeshUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\ScreenSpaceReflections.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="..\src\EmptyProject.cpp" />
+    <ClCompile Include="..\src\EmptyProjectGameState.cpp" />
+    <ClCompile Include="..\src\OgreCommon\BaseSystem.cpp" />
+    <ClCompile Include="..\src\OgreCommon\CameraController.cpp" />
+    <ClCompile Include="..\src\OgreCommon\GameEntityManager.cpp" />
+    <ClCompile Include="..\src\OgreCommon\GraphicsSystem.cpp" />
+    <ClCompile Include="..\src\OgreCommon\LogicSystem.cpp" />
+    <ClCompile Include="..\src\OgreCommon\SdlInputHandler.cpp" />
+    <ClCompile Include="..\src\OgreCommon\System\Desktop\MainLoopMultiThreaded.cpp" />
+    <ClCompile Include="..\src\OgreCommon\System\Desktop\MainLoopSingleThreaded.cpp" />
+    <ClCompile Include="..\src\OgreCommon\System\MainEntryPoints.cpp" />
+    <ClCompile Include="..\src\OgreCommon\System\StaticPluginLoader.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Threading\MessageQueueSystem.cpp" />
+    <ClCompile Include="..\src\OgreCommon\TutorialGameState.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\HdrUtils.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\MeshUtils.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\MiscUtils.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\ScreenSpaceReflections.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\SmaaUtils.cpp" />
+    <ClCompile Include="..\src\OgreCommon\Utils\TestUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\EmptyProject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\EmptyProjectGameState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\BaseSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\CameraController.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameEntityManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GraphicsSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\InputListeners.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\LogicSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\MainEntryPointHelper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\SdlEmulationLayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\SdlInputHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\MainEntryPoints.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\OSX\OSXUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\StaticPluginLoader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\AppDelegate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\GameViewController.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\iOSUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\MessageQueueSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\MqMessages.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\YieldTimer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\TutorialGameState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\HdrUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\MeshUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\MiscUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\ScreenSpaceReflections.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\SmaaUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\TestUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="..\include\EmptyProject.h" />
+    <ClInclude Include="..\include\EmptyProjectGameState.h" />
+    <ClInclude Include="..\include\OgreCommon\BaseSystem.h" />
+    <ClInclude Include="..\include\OgreCommon\CameraController.h" />
+    <ClInclude Include="..\include\OgreCommon\GameEntity.h" />
+    <ClInclude Include="..\include\OgreCommon\GameEntityManager.h" />
+    <ClInclude Include="..\include\OgreCommon\GameState.h" />
+    <ClInclude Include="..\include\OgreCommon\GraphicsSystem.h" />
+    <ClInclude Include="..\include\OgreCommon\InputListeners.h" />
+    <ClInclude Include="..\include\OgreCommon\LogicSystem.h" />
+    <ClInclude Include="..\include\OgreCommon\MainEntryPointHelper.h" />
+    <ClInclude Include="..\include\OgreCommon\SdlEmulationLayer.h" />
+    <ClInclude Include="..\include\OgreCommon\SdlInputHandler.h" />
+    <ClInclude Include="..\include\OgreCommon\System\MainEntryPoints.h" />
+    <ClInclude Include="..\include\OgreCommon\System\OSX\OSXUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\System\StaticPluginLoader.h" />
+    <ClInclude Include="..\include\OgreCommon\System\iOS\AppDelegate.h" />
+    <ClInclude Include="..\include\OgreCommon\System\iOS\GameViewController.h" />
+    <ClInclude Include="..\include\OgreCommon\System\iOS\iOSUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\Threading\MessageQueueSystem.h" />
+    <ClInclude Include="..\include\OgreCommon\Threading\MqMessages.h" />
+    <ClInclude Include="..\include\OgreCommon\Threading\YieldTimer.h" />
+    <ClInclude Include="..\include\OgreCommon\TutorialGameState.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\HdrUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\MeshUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\MiscUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\ScreenSpaceReflections.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\SmaaUtils.h" />
+    <ClInclude Include="..\include\OgreCommon\Utils\TestUtils.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
