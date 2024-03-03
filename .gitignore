@@ -1,3 +1,6 @@
 /EmptyProject/build/.vs
+/EmptyProject/Dependencies/Ogre/build/.vs
 /EmptyProject/bin
+/EmptyProject/Dependencies/Ogre/Dependencies/lib/Debug
+/EmptyProject/Dependencies/Ogre/Dependencies/lib/Release
 .log
