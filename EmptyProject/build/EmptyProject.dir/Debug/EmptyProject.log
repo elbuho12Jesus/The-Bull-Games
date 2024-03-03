@@ -1,0 +1,150 @@
+﻿  EmptyProject.cpp
+  EmptyProjectGameState.cpp
+  BaseSystem.cpp
+  CameraController.cpp
+  GameEntityManager.cpp
+  GraphicsSystem.cpp
+  LogicSystem.cpp
+  SdlInputHandler.cpp
+  MainLoopMultiThreaded.cpp
+  MainLoopSingleThreaded.cpp
+  MainEntryPoints.cpp
+  StaticPluginLoader.cpp
+  MessageQueueSystem.cpp
+  TutorialGameState.cpp
+  HdrUtils.cpp
+  MeshUtils.cpp
+  MiscUtils.cpp
+  ScreenSpaceReflections.cpp
+  SmaaUtils.cpp
+  TestUtils.cpp
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp(182,47): warning C4267: 'return': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(40,1): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(68): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::storeMessageToQueue<T>(Demo::Mq::MessageQueueSystem::MessageArray &,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=Demo::GameEntityManager::CreatedGameEntity
+          ] (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp(76): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::queueSendMessage<Demo::GameEntityManager::CreatedGameEntity>(Demo::Mq::MessageQueueSystem *,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=Demo::GameEntityManager::CreatedGameEntity
+          ]
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(40,1): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\SdlInputHandler.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(68): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::storeMessageToQueue<T>(Demo::Mq::MessageQueueSystem::MessageArray &,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=SDL_Event
+          ] (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\SdlInputHandler.cpp)
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\SdlInputHandler.cpp(81): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::queueSendMessage<SDL_Event>(Demo::Mq::MessageQueueSystem *,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=SDL_Event
+          ]
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp(57,70): warning C4244: 'argument': conversion from 'int' to 'const Ogre::Real', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp(57,57): warning C4244: 'argument': conversion from 'int' to 'const Ogre::Real', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp(57,43): warning C4244: 'argument': conversion from 'int' to 'const Ogre::Real', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopMultiThreaded.cpp(217,29): warning C4244: 'initializing': conversion from 'Ogre::uint64' to 'unsigned long', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopMultiThreaded.cpp(234,37): warning C4244: '=': conversion from 'Ogre::uint64' to 'unsigned long', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp(94,102): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=Ogre::uint32
+          ]
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\ScreenSpaceReflections.cpp(194,69): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\ScreenSpaceReflections.cpp(195,69): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(40,1): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(68): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::storeMessageToQueue<T>(Demo::Mq::MessageQueueSystem::MessageArray &,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=size_t
+          ] (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp(69): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::queueSendMessage<size_t>(Demo::Mq::MessageQueueSystem *,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=size_t
+          ]
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(40,1): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading/MessageQueueSystem.h(68): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::storeMessageToQueue<T>(Demo::Mq::MessageQueueSystem::MessageArray &,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=Ogre::uint32
+          ] (compiling source file D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp)
+D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp(451): message : see reference to function template instantiation 'void Demo::Mq::MessageQueueSystem::queueSendMessage<Ogre::uint32>(Demo::Mq::MessageQueueSystem *,Demo::Mq::MessageId,const T &)' being compiled
+          with
+          [
+              T=Ogre::uint32
+          ]
+  EmptyProject.vcxproj -> D:\Game_UPC\engine\EmptyProject\bin\Debug\EmptyProject.exe

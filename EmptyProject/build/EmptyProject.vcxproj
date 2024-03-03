@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C25066AB-74B4-377A-A47D-E735AAB40A7F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>EmptyProject</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Game_UPC\engine\EmptyProject\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EmptyProject.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EmptyProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Game_UPC\engine\EmptyProject\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EmptyProject.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EmptyProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Game_UPC\engine\EmptyProject\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EmptyProject.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EmptyProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Game_UPC\engine\EmptyProject\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EmptyProject.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EmptyProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Dependencies\Ogre\OgreMain\include;$(ProjectDir)..\Dependencies\Ogre\build\include;$(ProjectDir)..\Dependencies\Ogre\Components\Hlms\Common\include;$(ProjectDir)..\Dependencies\Ogre\Components\Hlms\Unlit\include;$(ProjectDir)..\Dependencies\Ogre\Components\Hlms\Pbs\include;$(ProjectDir)..\Dependencies\Ogre\Components\Overlay\include;$(ProjectDir)..\Dependencies\Ogre\Dependencies\include\SDL2;$(ProjectDir)..\include\OgreCommon;$(ProjectDir)..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OgreOverlay_d.lib;OgreHlmsUnlit_d.lib;OgreHlmsPbs_d.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2main.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)../Dependencies/Ogre/build/lib/$(ConfigurationName);$(ProjectDir)../Dependencies/Ogre/build/lib/$(ConfigurationName)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Game_UPC/engine/EmptyProject/bin/Debug/EmptyProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Game_UPC/engine/EmptyProject/bin/Debug/EmptyProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OgreOverlay.lib;OgreHlmsUnlit.lib;OgreHlmsPbs.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2main.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName);D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Game_UPC/engine/EmptyProject/bin/Release/EmptyProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Game_UPC/engine/EmptyProject/bin/Release/EmptyProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OgreOverlay.lib;OgreHlmsUnlit.lib;OgreHlmsPbs.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2main.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName);D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Game_UPC/engine/EmptyProject/bin/MinSizeRel/EmptyProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Game_UPC/engine/EmptyProject/bin/MinSizeRel/EmptyProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\build\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Common\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Unlit\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Hlms\Pbs\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Components\Overlay\include;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\include\SDL2;D:\Game_UPC\engine\EmptyProject\include\OgreCommon;D:\Game_UPC\engine\EmptyProject\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OgreOverlay.lib;OgreHlmsUnlit.lib;OgreHlmsPbs.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2main.lib;D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\Dependencies\lib\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName);D:/Game_UPC/engine/EmptyProject/Dependencies/Ogre/build/lib/$(ConfigurationName)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Game_UPC/engine/EmptyProject/bin/RelWithDebInfo/EmptyProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Game_UPC/engine/EmptyProject/bin/RelWithDebInfo/EmptyProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\EmptyProject.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\EmptyProjectGameState.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\BaseSystem.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\CameraController.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GameEntityManager.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\GraphicsSystem.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\LogicSystem.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\SdlInputHandler.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopMultiThreaded.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\Desktop\MainLoopSingleThreaded.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\MainEntryPoints.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\System\StaticPluginLoader.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Threading\MessageQueueSystem.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\TutorialGameState.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\HdrUtils.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MeshUtils.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\MiscUtils.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\ScreenSpaceReflections.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\SmaaUtils.cpp" />
+    <ClCompile Include="D:\Game_UPC\engine\EmptyProject\src\OgreCommon\Utils\TestUtils.cpp" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\EmptyProject.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\EmptyProjectGameState.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\BaseSystem.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\CameraController.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameEntity.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameEntityManager.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GameState.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\GraphicsSystem.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\InputListeners.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\LogicSystem.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\MainEntryPointHelper.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\SdlEmulationLayer.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\SdlInputHandler.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\MainEntryPoints.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\OSX\OSXUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\StaticPluginLoader.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\AppDelegate.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\GameViewController.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\System\iOS\iOSUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\MessageQueueSystem.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\MqMessages.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Threading\YieldTimer.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\TutorialGameState.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\HdrUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\MeshUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\MiscUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\ScreenSpaceReflections.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\SmaaUtils.h" />
+    <ClInclude Include="D:\Game_UPC\engine\EmptyProject\include\OgreCommon\Utils\TestUtils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
