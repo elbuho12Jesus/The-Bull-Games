@@ -1,6 +1,5 @@
-/EmptyProject/build/.vs
-/EmptyProject/Dependencies/Ogre/build/.vs
-/EmptyProject/bin
-/EmptyProject/Dependencies/Ogre/Dependencies/lib/Debug
-/EmptyProject/Dependencies/Ogre/Dependencies/lib/Release
+/The-Bull-Games/.vs
+/The-Bull-Games/x64
+/The-Bull-Games/Dependencies/Ogre/Dependencies/lib/Debug
+/The-Bull-Games/Dependencies/Ogre/Dependencies/lib/Release
 .log

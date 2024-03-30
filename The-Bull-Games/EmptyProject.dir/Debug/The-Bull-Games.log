@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (EmptyProject.dir\Debug\) contains files shared from another project (EmptyProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  EmptyProject.cpp
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+D:\Game_UPC\test\The-Bull-Games\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+  The-Bull-Games.vcxproj -> D:\Game_UPC\test\The-Bull-Games\x64\Debug\The-Bull-Games.exe
