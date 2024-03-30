@@ -65,7 +65,7 @@ namespace Demo
         EmptyProjectGraphicsSystem( GameState *gameState ) :
             GraphicsSystem( gameState )
         {
-            mResourcePath = "../Data/";
+            mResourcePath = "./Data/";
 
             //It's recommended that you set this path to:
             //	%APPDATA%/EmptyProject/ on Windows
