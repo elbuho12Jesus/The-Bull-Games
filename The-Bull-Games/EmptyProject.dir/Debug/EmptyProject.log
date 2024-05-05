@@ -1,8 +1,0 @@
-﻿  TutorialGameState.cpp
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(256,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(262,77): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(280,69): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(288,76): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(421,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-D:\Game_UPC\engine\EmptyProject\Dependencies\Ogre\OgreMain\include\OgreMath.h(429,78): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-  EmptyProject.vcxproj -> D:\Game_UPC\engine\EmptyProject\bin\Debug\EmptyProject.exe
